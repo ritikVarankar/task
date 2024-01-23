@@ -3,6 +3,10 @@
 ## Link to run application
 Link:- https://ritikvarankar.github.io/task/
 
+## Screenshots
+![Homepage](https://github.com/ritikVarankar/task/assets/107349946/98ed072c-f5d8-4608-bd06-4f57761c70e3)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
