@@ -1,0 +1,93 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+/* Bootstrap Override Css  */
+.form-control.custom-form-control{
+  padding: .5rem;
+  font-size: 1.3rem;
+}
+
+.btn.custom-btn{
+  font-size: 1.2rem;
+  padding: 0.8rem 1.2rem;
+}
+.modal-title{
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+label{
+  font-weight: 500;
+}
+/* Form Component */
+.form-card{
+  padding: 2rem 3rem;
+}
+@keyframes textShine {
+  0% {
+      background-position: 0% 50%;
+  }
+  100% {
+      background-position: 100% 50%;
+  }
+}
+.form-title{
+  text-align: center;
+  transform: skew(-10deg);
+  font-size: 2rem;
+  font-weight: 700;
+  background: linear-gradient(
+      to right,
+      #7953cd 20%,
+      #00affa 30%,
+      #0190cd 70%,
+      #764ada 80%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  background-size: 500% auto;
+  animation: textShine 5s ease-in-out infinite alternate;
+}
+
+.centerContent{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.endContent{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.alignHorizontal{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Table Component */
+.iconContainer{
+  display: flex;
+  align-items: center;
+}
+.iconContainer > i{
+  font-size: 2rem;
+  color: var(--gray-color);
+  margin: 0rem .5rem;
+  cursor: pointer;
+}
+.iconContainer > i:hover{
+  color: var(--blue-color);
+}
+
